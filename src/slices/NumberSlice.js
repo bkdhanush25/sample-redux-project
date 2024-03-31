@@ -10,7 +10,6 @@ const numberSlice = createSlice({
     reducers: {
         incrementNumber(state){
             state.number += 1;
-            console.log("increaement")
         },
         decrementNumber(state){
             state.number -= 1;

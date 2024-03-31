@@ -9,6 +9,7 @@ const AddNumber = () => {
 
   return (
     <div>
+      <h3>Add Number</h3>
       <button onClick={() => dispatch(incrementNumber())}>+</button>
       <p>{numbers}</p>
       <button onClick={() => dispatch(decrementNumber())}>-</button>
