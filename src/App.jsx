@@ -3,6 +3,7 @@ import AddCustomer from './AddCustomer'
 import { Provider } from 'react-redux';
 import { store } from './store';
 import ViewCustomer from './ViewCustomer';
+import AddNumber from './AddNumber';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <Provider store={store}>
     <AddCustomer/>
     <ViewCustomer/>
+    <AddNumber/>
     </Provider>
   )
 }
